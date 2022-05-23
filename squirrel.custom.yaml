@@ -23,10 +23,10 @@ patch:
       horizontal: true                        # 水平排列
       inline_preedit: true                    # 单行显示，false双行显示
       candidate_format: "%c\u2005%@ \u2005"   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间的。
-      font_face: "PingFangSC"# 候选词编号字体
+      font_face: "LXGW WenKai"                   # 候选词字体
       font_point: 16                          # 候选文字大小
       label_font_point: 14                    # 候选编号大小
-      label_font_face: "SFCompactText-Regular"# 候选词编号字体
+      label_font_face: "LXGW WenKai Mono"            # 候选词编号字体
       corner_radius: 6                        # 候选条圆角
       hilited_corner_radius: 4                # 高亮圆角
       border_height: 4                        # 窗口边界高度，大于圆角半径才生效
@@ -63,5 +63,13 @@ patch:
       hilited_candidate_label_color: 0xffffff   # 第一候选项编号颜色
       comment_text_color: 0xdedddd              # 拼音等提示文字颜色
 
-  "app_options/com.runningwithcrayons.Alfred/ascii_mode": true
-  "app_options/com.coteditor.CotEditor/ascii_mode": true
+    app_options:
+      com.runningwithcrayons.Alfred:
+        ascii_mode: true
+      com.apple.Spotlight:
+        ascii_mode: true
+      com.apple.Terminal:
+        ascii_mode: true
+        no_inline: true
+      com.microsoft.VSCode:
+        ascii_mode: true
