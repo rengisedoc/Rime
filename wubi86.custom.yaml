@@ -38,7 +38,7 @@ patch:
 
   translator:
     dictionary: wubi86 #加载五笔词库
-    enable_user_dict: true
+    enable_user_dict: false
     enable_encoder: false
     enable_sentence: false
     enable_charset_filter: true

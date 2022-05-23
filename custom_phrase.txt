@@ -19,7 +19,7 @@
 What the fuck!	wtf	1
 WTF	wtf	3
 正在开会，晚点回你	meet
-又双叒叕	yyy
+又双叒叕	yyyy
 Rime	rime	3
 ⌘	cmd
 ⌃	ctl
@@ -27,5 +27,8 @@ Rime	rime	3
 ⇧	shit
 GBK	gbk
 UTF-8	utfba
-ricky8hsia@gmail.com	rmail
+ricky8hsia@gmail.com	gmail
+rickyhsia@163.com	nmail
+MySQL	mysq
+macOS	maco
 

@@ -12,8 +12,11 @@ patch:
     inline_preedit: true
 
     app_options:
-      com.googlecode.iterm2: &a
+      io.alacritty: &a
         ascii_mode: true
+        no_inline: true
+      org.yuanli.utools: *a
+      com.googlecode.iterm2: *a
       com.runningwithcrayons.Alfred: *a
       com.microsoft.VSCode:
       com.google.Chrome: *a
@@ -22,6 +25,4 @@ patch:
       org.vim.MacVim: *a
       com.youdao.YoudaoDict: *a
       com.apple.launchpad.launcher: *a
-      com.apple.Terminal:
-        ascii_mode: true
-        no_inline: true
+      com.apple.Terminal: *a
