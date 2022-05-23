@@ -14,15 +14,14 @@ patch:
     app_options:
       io.alacritty: &a
         ascii_mode: true
-        no_inline: true
-      org.yuanli.utools: *a
-      com.googlecode.iterm2: *a
-      com.runningwithcrayons.Alfred: *a
-      com.microsoft.VSCode:
+        no_inline: false
+        vim_mode: true
       com.google.Chrome: *a
+      org.yuanli.utools: *a
+      com.microsoft.VSCode: *a
+      com.DanPristupov.Fork: *a
       com.apple.finder: *a
       com.apple.Spotlight: *a
-      org.vim.MacVim: *a
       com.youdao.YoudaoDict: *a
       com.apple.launchpad.launcher: *a
       com.apple.Terminal: *a
