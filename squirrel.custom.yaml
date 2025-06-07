@@ -11,17 +11,18 @@ patch:
     horizontal: true
     inline_preedit: true
 
-    app_options:
-      io.alacritty: &a
-        ascii_mode: true
-        no_inline: false
-        vim_mode: true
-      com.google.Chrome: *a
-      org.yuanli.utools: *a
-      com.microsoft.VSCode: *a
-      com.DanPristupov.Fork: *a
-      com.apple.finder: *a
-      com.apple.Spotlight: *a
-      com.youdao.YoudaoDict: *a
-      com.apple.launchpad.launcher: *a
-      com.apple.Terminal: *a
+  app_options:
+    com.github.wez.wezterm: &a
+      ascii_mode: true
+      no_inline: false
+      vim_mode: true
+    com.google.Chrome: *a
+    com.microsoft.VSCode: *a
+    com.DanPristupov.Fork: *a
+    com.apple.finder: *a
+    com.apple.Spotlight: *a
+    com.youdao.YoudaoDict: *a
+    com.apple.launchpad.launcher: *a
+    com.apple.Terminal: *a
+    app.zen-browser.zen: *a
+    com.todesktop.230313mzl4w4u92: *a
